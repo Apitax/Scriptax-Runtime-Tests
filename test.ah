@@ -1,0 +1,32 @@
+from scriptax import myfolder.mine;
+from scriptax import myfolder.quin as Quinn;
+from scriptaxstd import test;
+
+extend mine with Quinn;
+
+script does_all_the_things()
+{
+    a_variable = script name_generator(joe) {
+        return "bob " + joe;
+    };
+
+    and_the_other_guys = [];
+    and_the_other_guys[] = "Ringo Star";
+    and_the_other_guys[] = "George Harrison";
+    and_the_other_guys[] = "John Lennon";
+    and_the_other_guys[] = "Paul Mccartney";
+
+    something = {
+      "cool": {
+        'shirt': {
+          "status": "thanks"
+        }
+      }
+    };
+
+    return day() + " " + a_variable(joe="dylan") + " " + str(and_the_other_guys) + " " + str(something.cool.shirt) + " " + does_something_important();
+}
+
+my_instance = new test();
+
+return my_instance.std_test();

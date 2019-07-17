@@ -1,0 +1,12 @@
+from scriptax import test;
+
+extend test;
+
+mylistofitems = [];
+
+for item in 100
+{
+    mylistofitems[] = item;
+}
+
+return does_all_the_things() + " " + does_something_important() + " " + str(mylistofitems);

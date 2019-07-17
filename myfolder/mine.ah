@@ -1,0 +1,4 @@
+script day()
+{
+  return "night";
+}

@@ -1,0 +1,4 @@
+static script does_something_important()
+{
+    return "not really";
+}
